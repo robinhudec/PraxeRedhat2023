@@ -7,4 +7,4 @@ else
 	sudo dnf remove $1
 fi
 
-rpm -q idk
+rpm -q $1
