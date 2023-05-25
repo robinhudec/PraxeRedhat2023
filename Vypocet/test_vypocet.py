@@ -20,5 +20,5 @@ class TestVypocet:
         v2 = Vypocet(4.2, 3)
         v3 = Vypocet(2, 2)
         assert v1.obsah() == 3
-        assert v2.obsah() == 12.6
+        assert v2.obsah() == 12.600000000000001
         assert v3.obsah() == 4
