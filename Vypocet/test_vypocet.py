@@ -19,6 +19,6 @@ class TestVypocet:
         v1 = Vypocet(1, 3)
         v2 = Vypocet(4.2, 3)
         v3 = Vypocet(2, 2)
-        assert v1.obvod() == 3
-        assert v2.obvod() == 12.6
-        assert v3.obvod() == 4
+        assert v1.obsah() == 3
+        assert v2.obsah() == 12.6
+        assert v3.obsah() == 4
