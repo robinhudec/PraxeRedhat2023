@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run Tox tests on sps-vyuka
+    - name: Run Tox tests on PraxeRedhat2023
       id: test
       uses: fedora-python/tox-github-action@master
       with:
